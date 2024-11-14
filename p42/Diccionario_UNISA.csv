@@ -1,0 +1,463 @@
+code,question,opciones
+missing,missing,Ausencia en respuestas de valores númericos=_901| No hay respuesta= _902| Respuestas vacias por captura=_903
+S0P1,¿Ha leído el consentimiento informado?,Y = Sí_1|N = No_2
+S0P2,"¿Da su consentimiento para participar en la encuesta de ""Salud en tu vida""?",Y = Sí_1|N = No_2
+S1P2,Fecha de nacimiento,
+S1P3,Sexo,A1 = Femenino _1|A2 = Masculino _2|A3 = No quiero responder_3
+S1P9,Código postal,
+S1P4,Ocupación,A1 = Estudiante_1|A2 = Trabajo _2|A3 = Estudio y trabajo _3|A4 = Jubilado _4|A5 = No trabajo_5
+S1P4[other],Ocupación: Otra opción,A1 = Estudiante_1|A2 = Trabajo _2|A3 = Estudio y trabajo _3|A4 = Jubilado _4|A5 = No trabajo_5
+S1P5,Grado de estudios concluidos,A1 = Ninguno _1|A2 = Primaria _2|A3 = Secundaria _3|A4 = Bachillerato _4|A5 = Carrera técnica_5|A6 = Licenciatura_6|A7 = Maestría _7|A8 = Doctorado _8
+S1P6,Estado civil,A1 = Soltero _1|A2 = Casado_2|A3 = Divorciado_3|A4 = Unión libre_4|A5 = Viudo/a_5
+S1P6[other],Estado civil: Otra opción,A1 = Soltero _1|A2 = Casado_2|A3 = Divorciado_3
+S1P10,¿Tiene hijos?,Y = Sí_1|N = No_2
+S1P11,¿Cuántos hijos tiene?,
+S1P7,Correo electrónico,A1 = Registrar mi correo electrónico_1| A2 = No tengo_2| A3 = No aplica_3|
+S1P8,Teléfono celular,A1 = Registrar mi teléfono celular_1| A2 = No tengo_2| A3 = No aplica_3|
+S2P9,¿Algún familiar padece o padecía diabetes?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P10[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P10[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P10[SQ001comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P10[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P10[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P10[SQ002comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P10[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P10[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P10[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P10[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P10[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P10[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P10[SQ005comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P10[SQ005comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P10[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as)",Y = Sí_1|N = No_2
+S2P10[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P10[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P10[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P10[SQ006comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P10[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P10[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P11,¿Algún familiar padece o padecía de obesidad o sobrepeso?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P12[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P12[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P12[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P12[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P12[SQ002comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P12[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P12[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P12[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P12[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P12[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P12[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P12[SQ005comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P12[SQ005comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P12[SQ005comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P12[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as)",Y = Sí_1|N = No_2
+S2P12[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P12[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P12[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P12[SQ006comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P12[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P12[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P13,¿Algún familiar padece o padecía de hipertensión?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P14[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P14[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P14[SQ001comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P14[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P14[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P14[SQ002comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P14[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P14[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P14[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P14[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P14[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P14[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P14[SQ005comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P14[SQ005comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P14[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as)",Y = Sí_1|N = No_2
+S2P14[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P14[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P14[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P14[SQ006comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P14[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P14[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P15,"¿Algún familiar padece o padecí­a de dislipidemias (alteración en el perfil lipí­dico, caracterizada por niveles elevados en sangre de partí­culas de grasa, por ejemplo triglicéridos, colesterol, LDL, bajo HDL)?",A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P16[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Abuelo",Y = Sí_1|N = No_2
+S2P16[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Abuelo: Valor",
+S2P16[SQ001comment]_2,"En caso de que la respuesta anterior sea sÃ­, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Abuelo: Valor",
+S2P16[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Abuela",Y = Sí_1|N = No_2
+S2P16[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Abuela: Valor",
+S2P16[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Madre",Y = Sí_1|N = No_2
+S2P16[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Madre: Valor",
+S2P16[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Padre",Y = Sí_1|N = No_2
+S2P16[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Padre: Valor",
+S2P16[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Hermanos(as)",Y = Sí_1|N = No_2
+S2P16[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Hermanos(as): Valor",
+S2P16[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: TÃ­os(as)",Y = Sí_1|N = No_2
+S2P16[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Tíos(as): Valor",
+S2P16[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Tíos(as): Valor",
+S2P16[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Tíos(as): Valor",
+S2P16[SQ006comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Tíos(as): Valor",
+S2P16[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Hijos(as)",Y = Sí_1|N = No_2
+S2P16[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados:: Hijos(as): Valor",
+S2P17,¿Algún familiar padece o padecía de alguna enfermedad cardiovascular?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P18[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P18[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P18[SQ001comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P18[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P18[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P18[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P18[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P18[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P18[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P18[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P18[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P18[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as)",Y = Sí_1|N = No_2
+S2P18[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P18[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P18[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P18[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P18[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P18[SQ007comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P19,¿Algún familiar padece o padecí­a de enfermedad renal crónica?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P20[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P20[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P20[SQ001comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P20[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P20[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P20[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P20[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P20[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P20[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P20[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P20[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P20[SQ005comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P20[SQ005comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P20[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as)",Y = Sí_1|N = No_2
+S2P20[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P20[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P20[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P20[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P21,¿Algún familiar padece o padecía cáncer?,A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S2P22[SQ001],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo",Y = Sí_1|N = No_2
+S2P22[SQ001comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P22[SQ001comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuelo: Valor",
+S2P22[SQ002],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela",Y = Sí_1|N = No_2
+S2P22[SQ002comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P22[SQ002comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Abuela: Valor",
+S2P22[SQ003],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre",Y = Sí_1|N = No_2
+S2P22[SQ003comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Madre: Valor",
+S2P22[SQ004],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre",Y = Sí_1|N = No_2
+S2P22[SQ004comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Padre: Valor",
+S2P22[SQ005],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as)",Y = Sí_1|N = No_2
+S2P22[SQ005comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P22[SQ005comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hermanos(as): Valor",
+S2P22[SQ006],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: TÃ­os(as)",Y = Sí_1|N = No_2
+S2P22[SQ006comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P22[SQ006comment]_2,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P22[SQ006comment]_3,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P22[SQ006comment]_4,"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Tíos(as): Valor",
+S2P22[SQ007],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as)",Y = Sí_1|N = No_2
+S2P22[SQ007comment],"En caso de que la respuesta anterior sea sí, por favor, mencione quien o quienes y si sabe la edad a la que fueron diagnosticados: Hijos(as): Valor",
+S2P23,"En los últimos dos años, ¿algún familiar falleció?",Y = Sí_1|N = No_2
+S2P24[SQ001_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Abuelo_Edad",
+S2P24[SQ001_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Abuelo_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ002_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Abuela_Edad",
+S2P24[SQ002_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Abuela_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ003_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Madre_Edad",
+S2P24[SQ003_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Madre_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ004_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Padre_Edad",
+S2P24[SQ004_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Padre_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ005_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Hermanos(as)_Edad",
+S2P24[SQ005_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Hermanos(as)_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ006_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Tí­os(as)_Edad",
+S2P24[SQ006_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Tí­os(as)_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S2P24[SQ007_SQ001],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Hijos(as)_Edad",
+S2P24[SQ007_SQ002],"En caso de que la respuesta sea sí, ¿a qué edad falleció su familiar y cuál fue la causa de su muerte?: Hijos(as)_Causa de muerte ",A1=Diabetes _1|A2=Cáncer _2|A3=Algún problema cardiovascular _3|A4=Algún problema respiratorio _4|A5=COVID19 _5|A6=Muerte natural _6|A7=Enfermedad de los riñones_7|A8=Enfermedad del hígado_8|A9=Enfermedad gastrointestinal_9|A10=Muerte accidental_10|A11=Enfermedad de nervios y cerebro_11|A12=Sin especificar_12|A13=Otras_13
+S3P25,¿Padece de alguna enfermedad?,Y = Sí_1|N = No_2
+S3P26[SQ011],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Ninguna,Y = Sí_1|N = No_2
+S3P26[SQ011comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Ninguna: Valor,
+S3P26[SQ002],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Diabetes,Y = Sí_1|N = No_2
+S3P26[SQ002comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Diabetes: Valor,
+S3P26[SQ003],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Obesidad o sobrepeso,Y = Sí_1|N = No_2
+S3P26[SQ003comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Obesidad o sobrepeso: Valor,
+S3P26[SQ004],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Hipertensión,Y = Sí_1|N = No_2
+S3P26[SQ004comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Hipertensión: Valor,
+S3P26[SQ005],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Dislipidemias,Y = Sí_1|N = No_2
+S3P26[SQ005comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Dislipidemias: Valor,
+S3P26[SQ006],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedad cardiovascular,Y = Sí_1|N = No_2
+S3P26[SQ006comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedad cardiovascular: Valor,
+S3P26[SQ007],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedad renal crónica,Y = Sí_1|N = No_2
+S3P26[SQ007comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedad renal crónica: Valor,
+S3P26[SQ008],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Cáncer,Y = Sí_1|N = No_2
+S3P26[SQ008comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Cáncer: Valor,
+S3P26[SQ009],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Covid-19,Y = Sí_1|N = No_2
+S3P26[SQ009comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Covid-19: Valor,
+S3P26[SQ010],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedades respiratorias,Y = Sí_1|N = No_2
+S3P26[SQ010comment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Enfermedades respiratorias: Valor,
+S3P26[other],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Otro,Y = Sí_1|N = No_2
+S3P26[othercomment],¿Qué enfermedad ha padecido y a qué edad fue diagnósticada?: Otro: Valor,
+S3P261[SQ001_SQ001],¿Otra enfermedad?: Otra_Enfermedad,
+S3P261[SQ001_SQ002],¿Otra enfermedad?: Otra_Edad,
+S3P261[SQ002_SQ001],¿Otra enfermedad?: Otra_Enfermedad,
+S3P261[SQ002_SQ002],¿Otra enfermedad?: Otra_Edad,
+S3P261[SQ003_SQ001],¿Otra enfermedad?: Otra_Enfermedad,
+S3P261[SQ003_SQ002],¿Otra enfermedad?: Otra_Edad,
+S3P28[SQ001],¿Quién le diagnóstico la(s) enfermedad(es)?: Médico general,Y = Sí_1|N = No_2
+S3P28[SQ002],¿Quién le diagnóstico la(s) enfermedad(es)?: Médico especialista,Y = Sí_1|N = No_2
+S3P28[other],¿Quién le diagnóstico la(s) enfermedad(es)?: Otra opción,
+S3P29,"Actualmente, ¿consume algún medicamento para su enfermedad?",Y = Sí_1|N = No_2
+S3P30,"En caso de que la pregunta anterior sea sí, por favor indique el nombre del medicamento",
+S3P31,"Actualmente, ¿consume algún suplemento alimenticio?",Y = Sí_1|N = No_2
+S3P32,"En caso de que la pregunta anterior sea sí, por favor indique el nombre del suplemento","A1=Colágeno_1|A2=Complejo B_2|A3=Creatina, cartinina_3|A4=Multivitamínicos_4|A5=Omegas_5|A6=Proteína_6|A7=Suplementos auxiliares_7"
+S3P33[SQ015],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: No aplica",Y = Sí_1|N = No_2
+S3P33[SQ015comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: No aplica: Valor",
+S3P33[SQ002],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2:Más de una vez a la semana; 3:Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Médico general",Y = Sí_1|N = No_2
+S3P33[SQ002comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Médico general: Valor",
+S3P33[SQ003],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica:Médico internista",Y = Sí_1|N = No_2
+S3P33[SQ003comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Médico internista: Valor",
+S3P33[SQ004],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Oftalmología",Y = Sí_1|N = No_2
+S3P33[SQ004comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia se debe usar la siguiente codificación 1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Oftalmología: Valor",
+S3P33[SQ005],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia? Para especificar la frecuencia  se debe usar la siguiente codificación1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Endocrinología",Y = Sí_1|N = No_2
+S3P33[SQ005comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Endocrinología: Valor",
+S3P33[SQ006],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Cancerología",Y = Sí_1|N = No_2
+S3P33[SQ006comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Cancerología: Valor",
+S3P33[SQ007],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Neurología",Y = Sí_1|N = No_2
+S3P33[SQ007comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Neurología: Valor",
+S3P33[SQ008],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Gastroenterología",Y = Sí_1|N = No_2
+S3P33[SQ008comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Gastroenterología: Valor",
+S3P33[SQ009],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Urología",Y = Sí_1|N = No_2
+S3P33[SQ009comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Urología: Valor",
+S3P33[SQ010],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Ginecología y obstetricia",Y = Sí_1|N = No_2
+S3P33[SQ010comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Ginecología y obstetricia: Valor",
+S3P33[SQ011],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Pediatría",Y = Sí_1|N = No_2
+S3P33[SQ011comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica:Pediatría: Valor",
+S3P33[SQ012],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Psiquiatría",Y = Sí_1|N = No_2
+S3P33[SQ012comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Psiquiatría: Valor",
+S3P33[SQ013],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica:: Psicología",Y = Sí_1|N = No_2
+S3P33[SQ013comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Psicología: Valor",
+S3P33[SQ014],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Nutrición",Y = Sí_1|N = No_2
+S3P33[SQ014comment],"Selecciona la o las opciones correspondientes, ¿A qué servicios de salud acude y con qué frecuencia?  Para especificar la frecuencia  se debe usar la siguiente codificación  1: Una vez a la semana; 2: Más de una vez a la semana; 3: Una vez cada quince días; 4: Una vez cada tres meses; 5: Una vez cada seis meses; 6: Menos de una vez al año; 7: No aplica: Nutrición: Valor",
+S3P34,¿Con qué frecuencia acude a estos servicios?,A1 = Una vez a la semana _1|A2 = Más de una vez a la semana _2|A3 = Una vez cada quince días _3|A4 = Una vez cada tres meses _4|A5 = Una vez cada seis meses _5|A6 = Menos de una vez al año_6|A7 = No aplica_7
+S3P35,¿Fuma?,Y = Sí_1|N = No_2
+S3P36,"En caso de que la respuesta anterior sea sí, indique la cantidad de cigarrillos que fuma al día:",
+S3P37,¿Consume alcohol?,A1 = SÃ­_1|A2 = No_2
+S3P38[SQ001],¿Qué tipo de alcohol bebe con frecuencia?: Cerveza,Y = Sí_1|N = No_2
+S3P38[SQ002],¿Qué tipo de alcohol bebe con frecuencia?: Vino,Y = Sí_1|N = No_2
+S3P38[SQ003],¿Qué tipo de alcohol bebe con frecuencia?: Destilados,Y = Sí_1|N = No_2
+S3P39,¿Con qué frecuencia consume alcohol?,A1 = 6-7 días a la semana_1|A2 = 3-5 días a la semana_2|A3 = 1-2 días a la semana_3|A4 = Menos que un día a la semana_4
+S3P40,"Indique la cantidad promedio o unidades (vasos, copas, shots) de alcohol que ingiere cada vez que toma:",
+S3MP41,¿A qué edad fue su primera menstruación?,A1 = Antes de los 10 _1|A2 = 11-13 años _2|A3 = 14-15 años _3|A4 = 16-17 años _4|A5 = >18 años_5|A6 = No sé _6|A7 = No quiero responder_7
+S3MP42,¿Ha sufrido de amenorrea (ausencia de la menstruación)?,Y = Sí_1|N = No_2
+S3MP43,¿Ha estado embarazada?,A1 = Sí_1|A2 = No_2|A3 = No quiero responder_3
+S3MP44[SQ001],En caso de que la respuesta anterior sea sí­ indique si:: Número de abortos,Y = Sí_1|N = No_2
+S3MP44[SQ001comment],En caso de que la respuesta anterior sea sí indique si:: Número de abortos: Valor,
+S3MP44[SQ002],En caso de que la respuesta anterior sea sí indique si:: Número de partos,Y = Sí_1|N = No_2
+S3MP44[SQ002comment],En caso de que la respuesta anterior sea sí indique si:: Número de partos: Valor,
+S3MP44[SQ003],En caso de que la respuesta anterior sea sí indique si:: Número de cesáreas,Y = Sí_1|N = No_2
+S3MP44[SQ003comment],En caso de que la respuesta anterior sea sí indique si:: Número de cesáreas: Valor,
+S3MP44[SQ004],En caso de que la respuesta anterior sea sí­ indique si:: No quiero responder,Y = Sí_1|N = No_2
+S3MP44[SQ004comment],En caso de que la respuesta anterior sea sí indique si:: No quiero responder: Valor,
+S4P45,¿Cómo considera su salud física actual?,A1 = Muy buena _1|A2 = Buena _2|A3 = Regular _3|A4 = Mala _4|A5 = Muy mala_5
+S4P46,¿Cómo considera su salud emocional actual?,A1 = Muy buena _1|A2 = Buena _2|A3 = Regular _3|A4 = Mala _4|A5 = Muy mala_5
+S4P47,¿Cómo considera su salud actual en comparación con la de hace cinco años?,A1 = Mucho mejor ahora que hace cinco años_1|A2 = Algo mejor ahora que hace cinco años_2|A3 = Igual que hace cinco años_3|A4 = Algo peor ahora que hace cinco años_4|A5 = Mucho peor ahora que hace cinco años_5
+S4P48,"Durante el último mes, ¿tuvo que dejar de hacer algunas actividades cotidianas a causa de su salud física?",Y = Sí_1|N = No_2
+S4P49,"Durante el último mes, ¿tuvo que dejar de hacer algunas actividades cotidianas a causa de su salud emocional?",Y = Sí_1|N = No_2
+S4P50,Considera que su calidad de vida es:,A1 = Muy buena _1|A2 = Buena _2|A3 = Regular _3|A4 = Mala _4|A5 = Muy mala_5
+S4P51,"En los últimos meses, ha pasado por experiencias que han aumentado sus niveles de ansiedad o estrés",Y = Sí_1|N = No_2
+S4P52,"En el último mes, ¿ha tenido problemas para dormir?",Y = Sí_1|N = No_2
+S4P53,¿Considera que cuándo duerme descansa?,Y = Sí_1|N = No_2
+S4P54,"Aproximadamente, ¿cuántas horas duerme al día?",
+S4P55,¿En qué categoría considera su peso actual?,A1 = Muy bajo _1|A2 = Bajo _2|A3 = Normal _3|A4 = Sobrepeso_4|A5 = Obesidad _5|A6 = No quiero responder _6
+S4P56,¿Cuál es su peso actual? _Kg,
+S4P57,¿Cuál es su estatura? _cm,
+S4P58,¿Cada cuánto tiempo se pesa?,A1 = Diario _1|A2 = 1 vez a la semana _2|A3 = 1 vez al mes_3|A4 = Cada 6 meses_4|A5 = 1 vez por año _5|A6 = No me peso_6|A7 = No quiero responder _7
+S4P58[other],¿Cada cuánto tiempo se pesa?: Otra opción,A1 = Diario _1|A2 = 1 vez a la semana _2|A3 = 1 vez al mes_3|A4 = Cada 6 meses_4|A5 = 1 vez por año _5|A6 = No me peso_6|A7 = No quiero responder _7|A8= Cuando acudo al médico_8|A9= Cuatro veces por año_9|A10= Más de 2 veces por mes_10|A11= Sin especificación_11
+S4P59,¿Qué acciones te gustaría tomar respecto a tu peso?,A2 = Bajar de peso_1|A3 = Estoy contento con mi peso_2|A4 = Subir de peso_3|A5 = No sé_4|A6 = No quiero responder_5
+S4P60[SQ001],De la imagen que se encuentra a continuación:: ¿En qué lugar se encuentra usted?,A1 = 1_1|A2 = 2_2|A3 = 3_3|A4 = 4_4|A5 = 5_5|A6 = 6_6|A7 = 7_7|A8 = 8_8|A9 = 9_9
+S4P60[SQ002],De la imagen que se encuentra a continuación:: ¿En qué lugar le gustaría estar?,A1 = 1_1|A2 = 2_2|A3 = 3_3|A4 = 4_4|A5 = 5_5|A6 = 6_6|A7 = 7_7|A8 = 8_8|A9 = 9_9
+S4P61[SQ001],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He ayunado,Y = Sí_1|N = No_2
+S4P61[SQ002],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He vomitado,Y = Sí_1|N = No_2
+S4P61[SQ003],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He hecho dietas restrictivas,Y = Sí_1|N = No_2
+S4P61[SQ004],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He cambiado mis hábitos de alimentación,Y = Sí_1|N = No_2
+S4P61[SQ005],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He aumentado mi actividad física,Y = Sí_1|N = No_2
+S4P61[SQ006],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He realizado ejercicio excesivo,Y = Sí_1|N = No_2
+S4P61[SQ007],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He usado pastillas,Y = Sí_1|N = No_2
+S4P61[SQ008],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He usado laxantes o diuréticos,Y = Sí_1|N = No_2
+S4P61[SQ009],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: He acudido con un profesional de la salud,Y = Sí_1|N = No_2
+S4P61[SQ010],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: No aplica (No he intentado cambiar de peso),Y = Sí_1|N = No_2
+S4P61[other],¿Qué acciones ha realizado para bajar de peso o mantenerse en su peso?: Otra opción,A1=Ejercicio regular_1|A2=He acudido con un profesional de la salud_2|A3=He cambiado mis hábitos de alimentación_3|A4=He hecho dietas restrictivas_4|A5=He usado fajas_5|A6=No aplica (No he intentado cambiar de peso)_6|A7=Suplementos alimenticios_7
+S4P62,¿Tiene la sensación de no poder parar de comer?,A1 = Nunca _1|A2 = Casi nunca _2|A3 = A veces _3|A4 = Con frecuencia _4|A5 = Con mucha frecuencia _5
+S4P63,¿En qué parte de su cuerpo diría que acumula más grasa?,A1 = Por arriba de la cintura_1|A2 = En la cintura_2|A3 = Por debajo de la cintura_3|A4 = En ninguna parte_4
+S4P63[other],¿En qué parte de su cuerpo dirí­a que acumula más grasa?: Otra opción,A1 = Por arriba de la cintura_1|A2 = En la cintura_2|A3 = Por debajo de la cintura_3|A4 = En ninguna parte_4|A5= Área abdominal_5|A6= Brazos y/o espalda_6|A7= Glúteos y/o piernas_7|A8= Rostro_8|A9= Todo el cuerpo_9
+S5P64,Hábitos alimentarios ¿Cuántas comidas realiza al día?,A1 = 1_1|A2 = 2-3_2|A3 = 4-5_3|A4 = >5_4
+S5P65,¿Considera que come?,A1 = Mucho más de lo recomendado_1|A2 = Más de lo recomendado _2|A3 = Lo recomendado_3|A4 = Menos de lo recomendado_4|A5 = Mucho menos de lo recomendado₅
+S5P66[SQ001],Por favor indique cuáles de los incisos corresponden típicamente al ambiente durante sus comidas:: Como deprisa porque no tengo tiempo,A1 = Frecuentemente_1|A2 = De vez en cuando_2|A3 = Nunca_3
+S5P66[SQ002],Por favor indique cuáles de los incisos corresponden típicamente al ambiente durante sus comidas:: Como parado,A1 = Frecuentemente_1|A2 = De vez en cuando_2|A3 = Nunca_3
+S5P66[SQ003],Por favor indique cuáles de los incisos corresponden típicamente al ambiente durante sus comidas:: Veo la televisión mientras como,A1 = Frecuentemente_1|A2 = De vez en cuando_2|A3 = Nunca_3
+S5P66[SQ004],"Por favor indique cuáles de los incisos corresponden típicamente al ambiente durante sus comidas:: Como sentado y hago otras actividades (revisar pendientes, leer, ver el celular)",A1 = Frecuentemente_1|A2 = De vez en cuando_2|A3 = Nunca_3
+S5P66[SQ005],"Por favor indique cuáles de los incisos corresponden típicamente al ambiente durante sus comidas:: Me tomo el tiempo suficiente para comer, me concentro en la comida y sus sabores",A1 = Frecuentemente_1|A2 = De vez en cuando_2|A3 = Nunca_3
+S5P672[SQ001],¿Pasas por puestos de la calle durante sus actividades cotidianas?: Durante la mañana,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P672[SQ002],¿Pasas por puestos de la calle durante sus actividades cotidianas?: Durante la tarde,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P672[SQ003],¿Pasas por puestos de la calle durante sus actividades cotidianas?: Durante la noche,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P67[SQ001],"¿Cuántas veces come en un puesto de la calle? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Desayuno",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67[SQ002],"¿Cuántas veces come en un puesto de la calle? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Comida",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_6
+S5P67[SQ003],"¿Cuántas veces come en un puesto de la calle? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Cena",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_7
+S5P67Bis2[SQ001],Pasas por restaurantes durante sus actividades cotidianas?: Durante la mañana,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P67Bis2[SQ002],Pasas por restaurantes durante sus actividades cotidianas?: Durante la tarde,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P67Bis2[SQ003],Pasas por restaurantes durante sus actividades cotidianas?: Durante la noche,A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 dí­as a la semana_3|A5 = Menos que un día a la semana_4|A6 = Nunca_5
+S5P67Bis[SQ003],"¿Cuántas veces come en un restaurante? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Desayuno",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67Bis[SQ004],"¿Cuántas veces come en un restaurante? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Comida",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67Bis[SQ005],"¿Cuántas veces come en un restaurante? Especificar el tiempo de comida que realiza fuera de casa, por ejemplo desayuno, comida o cena.: Cena",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67Tris[SQ006],"¿Cuántas veces come en casa? Especificar el tiempo de comida que realiza en casa, por ejemplo desayuno, comida o cena.: Desayuno",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67Tris[SQ007],"¿Cuántas veces come en casa? Especificar el tiempo de comida que realiza en casa, por ejemplo desayuno, comida o cena.: Comida",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P67Tris[SQ008],"¿Cuántas veces come en casa? Especificar el tiempo de comida que realiza en casa, por ejemplo desayuno, comida o cena.: Cena",A2 = 6-7 días a la semana_1|A3 = 3-5 días a la semana_2|A4 = 1-2 días a la semana_3|A6 = Menos que un día a la semana_4|A7 = Nunca_5
+S5P68[SQ002],"Frecuencia de consumo: Refresco, jugos industrializados",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ003],Frecuencia de consumo: Dulces,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ004],Frecuencia de consumo: Carne roja,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ005],Frecuencia de consumo: Pollo y pescado,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ006],Frecuencia de consumo: Tortilla,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ007],Frecuencia de consumo: Pan,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ008],Frecuencia de consumo: Arroz o pasta,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ009],"Frecuencia de consumo: Leguminosas (frijol, lenteja, haba)",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ010],Frecuencia de consumo: Verduras,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ011],Frecuencia de consumo: Frutas,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ012],"Frecuencia de consumo: Alimentos fritos, capeados, empanizados",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ013],"Frecuencia de consumo: Embutidos (jamón, salchicha, mortadella, chorizo)",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ014],"Frecuencia de consumo: Alimentos procesados (Pan de caja, galletas, papas fritas)",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ015],"Frecuencia de consumo: Lácteos (Queso, mantequilla, yogur)",A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P68[SQ016],Frecuencia de consumo: Agua simple,A1 = 6-7 veces a la semana_1|A2 = 3-5 veces a la semana_2|A3 = 1-2 veces a la semana _3|A4 = Menos de una vez a la semana _4|A5 = Nunca_5
+S5P69,Cuando compra alimentos se fija en el etiquetado de advertencia o en la tabla nutrimental,A1 = Nunca _1|A2 = Casi nunca _2|A3 = A veces _3|A4 = Con frecuencia _4|A5 = Con mucha frecuencia_5
+S5P70[SQ001],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Precio,Y = Sí_1|N = No_2
+S5P70[SQ001comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Precio: Valor,
+S5P70[SQ002],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Presencia de sellos,Y = Sí_1|N = No_2
+S5P70[SQ002comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Presencia de sellos: Valor,
+S5P70[SQ003],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Ingredientes,Y = Sí_1|N = No_2
+S5P70[SQ003comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Ingredientes: Valor,
+S5P70[SQ004],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Recomendaciones de amigos o familiares,Y = Sí_1|N = No_2
+S5P70[SQ004comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Recomendaciones de amigos o familiares: Valor,
+S5P70[SQ005],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Sabor,Y = Sí_1|N = No_2
+S5P70[SQ005comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Sabor: Valor,
+S5P70[SQ006],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Presentación,Y = Sí_1|N = No_2
+S5P70[SQ006comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Presentación: Valor,
+S5P70[SQ007],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Promociones,Y = Sí_1|N = No_2
+S5P70[SQ007comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Promociones: Valor,
+S5P70[SQ008],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Es saludable,Y = Sí_1|N = No_2
+S5P70[SQ008comment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha:  Es saludable: Valor,
+S5P70[other],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Otro,Y = Sí_1|N = No_2
+S5P70[othercomment],¿Cuál de estos aspectos influye en sus decisiones de compra? Especifique la prioridad de su elección en el cuadro de texto de la derecha: Otro: Valor,
+S5P71,¿Hubo alguna vez que haya comido poca variedad de alimentos por falta de dinero?,A1 = Sí_1|A2 = No_2|A3 = No quiero responder_5
+S5P72,"¿Hubo alguna vez en que usted haya tenido que dejar de desayunar, comer o cenar porque no había suficiente dinero para obtener alimentos?",A1 = Sí_1|A2 = No_2|A3 = No quiero responder_4
+S5P73,¿Hubo alguna vez en que haya sentido hambre pero no comiá porque no había suficiente dinero para obtener alimentos?,A1 = Sí_1|A2 = No_2|A3 = No quiero responder_3
+S5P74,¿Hubo alguna vez en que usted haya dejado de comer todo un día por falta de dinero?,A1 = Sí_1|A2 = No_2|A3 = No quiero responder_3
+S5P74Bis,¿Su trabajo o estudio implica actividad física?,Y = Sí_1|N = No_2
+S5P74Tris,"En caso de que la respuesta anterior sea afirmativa, seleccione un nivel de actividad física",A1 = Alto_1|A2 = Bajo_2
+S5P75,¿Realiza ejercicio?,A2 = Sí_1|A1 = No_2
+S5P755,¿Cuántos días a la semana hace ejercicio?,A1 = un día a la semana_1|A2 = dos días a la semana_2|A3 = tres días a la semana_3|A4 = cuatro días a la semana_4|A5 = cinco días a la semana_5|A6 = seis días a la semana_6|A7 = toda la semana_7
+S5P756,¿Cuál es el número toral de horas de ejercicio que hace por semana?,
+S5P76[SQ001],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Saltar la cuerda,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ002],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Caminata,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ003],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Correr,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ004],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Andar en bicicleta,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ005],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Spinning,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ006],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Yoga,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ007],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Zumba,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ008],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Pilates,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ009],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Kickboxing,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ010],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Crossfit,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ011],"¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: En equipo (Fútbol, baloncesto, etc.)",A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ012],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Pesas,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P76[SQ013],¿Qué tipo de ejercicio realiza típicamente y cuánto tiempo dedica por sesión?: Otro,A2 = Menos de 15 minutos_1|A3 = 15-30 minutos_2|A4 = 30-60 minutos_3|A5 = Más de 1 hora_4|A6 = No aplica_5
+S5P78[SQ001],¿Dónde realiza ejercicio?: Gimnasio público,Y = Sí_1|N = No_2
+S5P78[SQ002],¿Dónde realiza ejercicio?: Gimnasio privado,Y = Sí_1|N = No_2
+S5P78[SQ003],¿Dónde realiza ejercicio?: Al aire libre,Y = Sí_1|N = No_2
+S5P78[SQ004],¿Dónde realiza ejercicio?: Casa,Y = Sí_1|N = No_2
+S5P78[SQ005],¿Dónde realiza ejercicio?: Parque,Y = Sí_1|N = No_2
+S5P78[SQ006],¿Dónde realiza ejercicio?: Ponte pila,Y = Sí_1|N = No_2
+S5P78[SQ007],¿Dónde realiza ejercicio?: En el trabajo,Y = Sí_1|N = No_2
+S5P78[other],¿Dónde realiza ejercicio?: Otra opción,A1=Academia de baile_1|A2=Alberca_2|A3=Deportivo o canchas deportivas_3|A4=Dojo_4|A5=En el hogar_5|A6=En el trabajo_6|A7=En la vía pública_7|A8=En un club deportivo_8|A9=Escuela_9|A10=Sin especificación_10
+S5P79[SQ001],¿Por qué realiza ejercicio físico?: Porque me gusta hacer ejercicio,Y = Sí_1|N = No_2
+S5P79[SQ002],¿Por qué realiza ejercicio físico?: Porque me lo recomienda el doctor,Y = Sí_1|N = No_2
+S5P79[SQ003],¿Por qué realiza ejercicio físico?: Porque es bueno para la salud,Y = Sí_1|N = No_2
+S5P79[SQ004],¿Por qué realiza ejercicio físico?: Porque me ayuda a desestresarme,Y = Sí_1|N = No_2
+S5P79[SQ005],¿Por qué realiza ejercicio físico?: Por razones sociales,Y = Sí_1|N = No_2
+S5P79[SQ006],¿Por qué realiza ejercicio físico?: Porque quiero bajar de peso,Y = Sí_1|N = No_2
+S5P79[SQ007],¿Por qué realiza ejercicio físico?: Porque siempre he hecho ejercicio,Y = Sí_1|N = No_2
+S5P79[SQ008],¿Por qué realiza ejercicio físico?: Por mi salud a largo plazo,Y = Sí_1|N = No_2
+S5P79[other],¿Por qué realiza ejercicio físico?: Otra opción,"A1=Es parte de mis obligaciones de crianza, laborales o escolares_1|A2=Por razones de apariencia física_2|A3=Porque es bueno para la salud_3"
+S5P80[SQ001],¿Por qué no realiza ejercicio físico?: Falta de tiempo,Y = Sí_1|N = No_2
+S5P80[SQ002],¿Por qué no realiza ejercicio físico?: No me gusta,Y = Sí_1|N = No_2
+S5P80[SQ003],¿Por qué no realiza ejercicio físico?: Por cansancio físico,Y = Sí_1|N = No_2
+S5P80[SQ004],¿Por qué no realiza ejercicio físico?:: Porque mi salud no me lo permite,Y = Sí_1|N = No_2
+S5P80[SQ005],¿Por qué no realiza ejercicio físico?: Para dedicar tiempo a mi familia,Y = Sí_1|N = No_2
+S5P80[SQ006],¿Por qué no realiza ejercicio físico?: Por cansancio mental,Y = Sí_1|N = No_2
+S5P80[SQ007],¿Por qué no realiza ejercicio físico?: Por falta de lugares para hacer ejercicio,Y = Sí_1|N = No_2
+S5P80[other],¿Por qué no realiza ejercicio físico?:: Otra opción,A1=Considero que no realizo lo suficiente_1|A2=Falta de conocimientos_2|A3=Falta de tiempo_3|A4=Insuficiencia económica_4|A5=No realizo por intereses sobre mi peso o apariencia_5|A6=Por desmotivación_6|A7=Porque mi salud no me lo permite_7
+S5P82,"Trabajo y/o estudio Aproximadamente, ¿cuántas horas al día pasa sentado?",
+S5P83,¿Cuántas horas trabaja y/o estudia al día?,
+S5P84[SQ009],"¿Qué medios de transporte utiliza para ir al trabajo?: Ninguno, trabajo en casa",Y = Sí_1|N = No_2
+S5P84[SQ001],¿Qué medios de transporte utiliza para ir al trabajo?: Bicicleta,Y = Sí_1|N = No_2
+S5P84[SQ002],¿Qué medios de transporte utiliza para ir al trabajo?:: Automóvil compartido,Y = Sí_1|N = No_2
+S5P84[SQ003],¿Qué medios de transporte utiliza para ir al trabajo?: Automóvil propio,Y = Sí_1|N = No_2
+S5P84[SQ004],¿Qué medios de transporte utiliza para ir al trabajo?: Camión,Y = Sí_1|N = No_2
+S5P84[SQ005],¿Qué medios de transporte utiliza para ir al trabajo?: Metrobús,Y = Sí_1|N = No_2
+S5P84[SQ006],¿Qué medios de transporte utiliza para ir al trabajo?: Metro,Y = Sí_1|N = No_2
+S5P84[SQ007],¿Qué medios de transporte utiliza para ir al trabajo?: Taxi,Y = Sí_1|N = No_2
+S5P84[SQ008],¿Qué medios de transporte utiliza para ir al trabajo?: Caminata,Y = Sí_1|N = No_2
+S5P84[other],¿Qué medios de transporte utiliza para ir al trabajo?: Otra opción,"A1=Ninguno, no trabajo_1|A2=Motocicleta_2|A3=Caminata_3|A4=Combis o microbuses_4|A5=Automóvil propio_5|A6=STP del Estado de México_6|A7=Transporte eléctrico (Cablebús, Trolebús, RTP, Tren ligero)_7"
+S5P85,¿Cuántas horas pasa en el transporte diariamente?,A1 = 0-30min_1|A2 = 30min-1hora_2|A3 = 1-2horas_3|A4 = 2-4horas_4|A5 = Más que 4 horas_5
+S5P85Bis[SQ001],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: No tengo quehaceres,Y = Sí_1|N = No_2
+S5P85Bis[SQ001comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: No tengo quehaceres: Valor,
+S5P85Bis[SQ002],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Limpiar el piso,Y = Sí_1|N = No_2
+S5P85Bis[SQ002comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Limpiar el piso: Valor,
+S5P85Bis[SQ003],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Lavar ropa,Y = Sí_1|N = No_2
+S5P85Bis[SQ003comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Lavar ropa: Valor,
+S5P85Bis[SQ004],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?:: Lavar trastes,Y = Sí_1|N = No_2
+S5P85Bis[SQ004comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Lavar trastes: Valor,
+S5P85Bis[SQ005],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Sacudir,Y = Sí_1|N = No_2
+S5P85Bis[SQ005comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Sacudir: Valor,
+S5P85Bis[SQ006],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?:: Barrer,Y = Sí_1|N = No_2
+S5P85Bis[SQ006comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Barrer: Valor,
+S5P85Bis[SQ007],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Comprar la despensa,Y = Sí_1|N = No_2
+S5P85Bis[SQ007comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Comprar la despensa: Valor,
+S5P85Bis[SQ008],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Cuidado de niños,Y = Sí_1|N = No_2
+S5P85Bis[SQ008comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Cuidado de niños: Valor,
+S5P85Bis[SQ009],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Cocinar,Y = Sí_1|N = No_2
+S5P85Bis[SQ009comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Cocinar: Valor,
+S5P85Bis[SQ010],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Tender la cama,Y = Sí_1|N = No_2
+S5P85Bis[SQ010comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Tender la cama: Valor,
+S5P85Bis[SQ011],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Lavar el baño,Y = Sí_1|N = No_2
+S5P85Bis[SQ011comment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Lavar el baño: Valor,
+S5P85Bis[other],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Otro,Y = Sí_1|N = No_2
+S5P85Bis[othercomment],¿Cuántas horas dedica típicamente a quehaceres del hogar durante la semana?: Otro: Valor,A1=No tengo quehaceres_1|A2=Limpiar el piso_2|A3=Cuidado de mascotas_3|A4=Lavar ropa_4|A5=Sin especificar_5
+S5P86,En su trabajo ¿le ofrecen prestaciones médicas?,A1 = Sí_1|A2 = No_2|A3 = No sé _3|A4 = No aplica _4
+S5P87,"Actualmente, ¿cuenta con seguridad social?",A1 = Sí_1|A2 = No_2|A3 = No sé_3
+S5P88[SQ001],Marque aquellos servicios con que cuentan en su hogar: Agua potable,Y = Sí_1|N = No_2
+S5P88[SQ002],Marque aquellos servicios con que cuentan en su hogar: Drenaje,Y = Sí_1|N = No_2
+S5P88[SQ003],Marque aquellos servicios con que cuentan en su hogar: Gas,Y = Sí_1|N = No_2
+S5P88[SQ004],"Marque aquellos servicios con que cuentan en su hogar: Piso (cemento, madera, loza, etc.)",Y = Sí_1|N = No_2
+S5P88[SQ005],Marque aquellos servicios con que cuentan en su hogar: Servicio de luz,Y = Sí_1|N = No_2
+S5P88[SQ006],Marque aquellos servicios con que cuentan en su hogar: Servicio de internet,Y = Sí_1|N = No_2
+S5P88[SQ007],Marque aquellos servicios con que cuentan en su hogar: Servicio de televisión de paga,Y = Sí_1|N = No_2
+S5P88[SQ008],Marque aquellos servicios con que cuentan en su hogar: Computadora o Laptop,Y = Sí_1|N = No_2
+S5P88[SQ009],Marque aquellos servicios con que cuentan en su hogar: Automóvil,Y = Sí_1|N = No_2
+S5P88[SQ010],Marque aquellos servicios con que cuentan en su hogar: Lavadora y/o secadora,Y = Sí_1|N = No_2
+S5P88[SQ011],Marque aquellos servicios con que cuentan en su hogar: Personas de limpieza,Y = Sí_1|N = No_2
+S5P88[SQ012],Marque aquellos servicios con que cuentan en su hogar: Celular,Y = Sí_1|N = No_2
+S5P88[SQ013],Marque aquellos servicios con que cuentan en su hogar: Aire acondicionado,Y = Sí_1|N = No_2
+S5P88[other],Marque aquellos servicios con que cuentan en su hogar: Otra opción,A1=Agua potable_1|A2=Computadora o Laptop_2|A3=Electrodomésticos_3
+S5P89,¿Con cuántas personas vive?,A1 = Solo _1|A2 = 1-2 personas _2|A3 = 3 personas_3|A4 = 4-5 personas _4|A5 = >6 personas_5
+S5P90,¿Tiene mascotas?,Y = Sí_1|N = No_2
+S6P92,¿Alguna vez ha estado afiliado a algún programa de salud?,A1 = Sí _1|A2 = No_2|A3 = No quiero responder _3
+S6P93,"En caso de que la respuesta anterior sea sí, por favor indique cuál:","A1=Derecho por cargo público_1|A2=IMSS_2|A3=ISSEMYM_3|A4=ISSSTE_4|A5=Por condición medica_5|A6=S.S.A_6|A7=Seguro escolar_7|A8=Seguro popular, gratuidad o INSABI_8|A9=Seguro privado_9|A10=Sin especificación_10"
+S6P94,El programa ha logrado cambiar tus hábitos,A1 = Sí _1|A2 = No_2|A3 = No aplica _3
+S6P95[SQ009],¿Qué medio utiliza para conocer programas de salud?: Ninguno,Y = Sí_1|N = No_2
+S6P95[SQ001],¿Qué medio utiliza para conocer programas de salud?: Televisión,Y = Sí_1|N = No_2
+S6P95[SQ002],¿Qué medio utiliza para conocer programas de salud?: Redes sociales,Y = Sí_1|N = No_2
+S6P95[SQ003],¿Qué medio utiliza para conocer programas de salud?: Radio,Y = Sí_1|N = No_2
+S6P95[SQ004],¿Qué medio utiliza para conocer programas de salud?: Periódico o revistas,Y = Sí_1|N = No_2
+S6P95[SQ005],¿Qué medio utiliza para conocer programas de salud?: Páginas web del gobierno,Y = Sí_1|N = No_2
+S6P95[SQ006],¿Qué medio utiliza para conocer programas de salud?: Familia,Y = Sí_1|N = No_2
+S6P95[SQ007],¿Qué medio utiliza para conocer programas de salud?: Amigos,Y = Sí_1|N = No_2
+S6P95[SQ008],¿Qué medio utiliza para conocer programas de salud?: Trabajo,Y = Sí_1|N = No_2
+S6P95[other],¿Qué medio utiliza para conocer programas de salud?: Otra opción,A1=Televisión_1|A2=Periódico o revista _2|A3=EscuelaA4=Internet_3|A5=Servicios de salud pública_4|A6=Servicios de salud privada_5
+Folio,Folio,
